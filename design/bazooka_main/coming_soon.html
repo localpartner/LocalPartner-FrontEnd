@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- 
+   Template Name: Bazooka
+   Version: 1.0.0
+   Author: Webstrot 
+   
+   -->
+<!--[if IE 8]> 
+<html lang="en" class="ie8 no-js">
+   <![endif]-->
+   <!--[if IE 9]> 
+   <html lang="en" class="ie9 no-js">
+      <![endif]-->
+      <!--[if !IE]><!-->
+      <html lang="zxx">
+         <!--[endif]-->
+         <head>
+            <meta charset="utf-8" />
+            <title>Bazooka</title>
+            <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+            <meta name="description" content="Bazooka" />
+            <meta name="keywords" content="Bazooka" />
+            <meta name="author" content="" />
+            <meta name="MobileOptimized" content="320" />
+            <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+            <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+            <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+            <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+            <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+            <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+            <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+            <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+            <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+            <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+            <link rel="manifest" href="images/favicon/manifest.json">
+            <link rel="stylesheet" type="text/css" href="css/style.css" />
+            <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+            <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+            <link rel="stylesheet" type="text/css" href="css/nice-select.css" />
+         </head>
+         <body>
+            <div id="preloader">
+               <div id="status">
+                  <img src="images/preloader.gif" id="preloader_image" alt="loader">
+               </div>
+            </div>
+            <div class="bz_coming_soon_main_wrapper float_left">
+               <div class="container-fluid custom_container">
+                  <div class="row">
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <div class="left_side float_left">
+                           <img class="img-fluid" src="images/coming1.png" alt="img">
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-12 col-12">
+                        <div class="coming_details_main_wrapper float_left">
+                           <div class="coming_box">
+                              <img class="img-fluid" src="images/logo_green.png" alt="logo">
+                              <h2>Website Coming Soon</h2>
+                              <p>Westran largest home shopping destination offering a wide rangeof home decoration Save on innovative & cutting-edge Bazooka.</p>
+                              <div class="timer_coming float_left">
+                                 <div id="clockdiv" class="product_timer float_left">
+                                    <div class="da">
+                                       <span class="days wow fadeInUp">173</span>
+                                       <div class="smalltext wow fadeInUp">Days</div>
+                                    </div>
+                                    <div class="ho">
+                                       <span class="hours wow fadeInUp">02</span>
+                                       <div class="smalltext wow fadeInUp">Hours</div>
+                                    </div>
+                                    <div class="min">
+                                       <span class="minutes wow fadeInUp">08</span>
+                                       <div class="smalltext wow fadeInUp">Minutes</div>
+                                    </div>
+                                    <div class="second">
+                                       <span class="seconds wow fadeInUp">51</span>
+                                       <div class="smalltext wow fadeInUp">Seconds</div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="search_bar">
+                                 <input type="text" placeholder="Enter your Email">
+                                 <button>Subscribe</button>
+                              </div>
+                              <div class="social_icon">
+                                 <ul>
+                                    <li>
+                                       <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                       <a href="#"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                       <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                       <a href="#"><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <div class="right_side">
+                           <img class="img-fluid" src="images/coming2.png" alt="img">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <script src="js/jquery-3.3.1.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/owl.carousel.js"></script>	
+            <script src="js/jquery.magnific-popup.js"></script>
+            <script src="js/custom.js"></script>
+            <script src="js/jquery.waypoints.min.js"></script>
+            <script src="js/jquery-ui.js"></script>
+            <!-- custom js-->
+            <script>
+               // CountDown Js
+               var deadline = 'november 1 2021 11:59:00 GMT-0400';
+               
+               function time_remaining(endtime) {
+                   var t = Date.parse(endtime) - Date.parse(new Date());
+                   var seconds = Math.floor((t / 1000) % 60);
+                   var minutes = Math.floor((t / 1000 / 60) % 60);
+                   var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+                   var days = Math.floor(t / (1000 * 60 * 60 * 24));
+                   return {
+                       'total': t,
+                       'days': days,
+                       'hours': hours,
+                       'minutes': minutes,
+                       'seconds': seconds
+                   };
+               }
+               
+               function run_clock(id, endtime) {
+                   var clock = document.getElementById(id);
+               
+                   // get spans where our clock numbers are held
+                   var days_span = clock.querySelector('.days');
+                   var hours_span = clock.querySelector('.hours');
+                   var minutes_span = clock.querySelector('.minutes');
+                   var seconds_span = clock.querySelector('.seconds');
+               
+                   function update_clock() {
+                       var t = time_remaining(endtime);
+               
+                       // update the numbers in each part of the clock
+                       days_span.innerHTML = t.days;
+                       hours_span.innerHTML = ('0' + t.hours).slice(-2);
+                       minutes_span.innerHTML = ('0' + t.minutes).slice(-2);
+                       seconds_span.innerHTML = ('0' + t.seconds).slice(-2);
+               
+                       if (t.total <= 0) {
+                           clearInterval(timeinterval);
+                       }
+                   }
+                   update_clock();
+                   var timeinterval = setInterval(update_clock, 1000);
+               }
+               run_clock('clockdiv', deadline);
+            </script>
+            
+         </body>
+      </html>

@@ -1,0 +1,339 @@
+/**
+ * border radius
+ */
+
+.btn,
+.jumbotron,
+.nav :hover {
+    border-radius: 0px;
+}
+
+/* 
+address
+*/ 
+.adressBar{
+  border: 2px solid red;
+}
+
+
+
+/* cart badge */
+
+.cart-badge,
+.cart-badge:hover {
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 12px;
+    font-style: italic;
+    background: #000;
+}
+/**
+ * single product page - product name
+ */
+
+.name {
+    background: indigo;
+    color: #fff;
+    font-weight: bold;
+}
+
+ul#top_access {
+	float: right;
+	position: relative;
+	top: 3px;
+	margin: -1px 0 0
+}
+ul#top_access li {
+	display: inline-block;
+	position: relative;
+	padding: 0;
+	margin-right: 15px;
+	margin-top: 15px
+}
+ul#top_access li span {
+	font-size: 20px;
+}
+ul#top_access li ul a:hover {
+	color: #01a5ed
+}
+
+.address-menu ul li:hover>ul {
+  visibility: visible;
+  opacity: 1
+}
+.address-menu ul ul {
+  font-size: 14px;
+  position: absolute;
+  visibility: hidden;
+  right: 15px;
+  display: inline-grid;
+  padding: 15px;
+  background: #fff;
+  min-width: 60px;
+  -webkit-box-shadow: 0 6px 12px 0 rgb(0 0 0 / 18%);
+  -moz-box-shadow: 0 6px 12px 0 rgba(0, 0, 0, .175);
+  box-shadow: 0 6px 12px 0 rgb(0 0 0 / 18%);
+  opacity: 0;
+}
+
+.cancel_btn{
+  color: #01a5ed;
+  padding-left: 55px;
+}
+/* black shade form 10-1 */
+.black-10 {
+    background: #f2f2f2;
+}
+.black-9 {
+    background: #e6e6e6;
+}
+.black-8 {
+    background: #d9d9d9;
+}
+.black-7 {
+    background: #cccccc;
+}
+.black-6 {
+    background: #bfbfbf;
+}
+.black-5 {
+    background: #b3b3b3;
+}
+
+/**
+ * product image on card
+ */
+
+.product-img {
+    min-height: 100px;
+}
+
+.jumbotron h2 {
+    margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .jumbotron h2 {
+        margin-top: 10px;
+    }
+}
+
+/**
+ * jumbotron animation
+ */
+
+.jumbotron {
+    height: 180px;
+    color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.woocommerce-loop-product__title {
+    line-height: 1em;
+    max-height: 2em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin: 0;
+    overflow: hidden !important;
+    margin: 0px 5px;
+}
+
+.product_content {
+    min-height: 255px;
+}
+
+.bz_product_grid_content_main_wrapper .bz_cart_main_wrapper .cart_tbl .table thead tr th {
+    text-transform: none !important;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.checkout_accord {
+    border: none;
+}
+.form-control {
+    border: 1px solid #ced4da !important;
+}
+
+.product_details {
+    margin-top: 30px;
+    background-color: #ffff;
+    padding: 10px;
+  }
+  
+  .product_details .img_product {
+    position: relative;
+    width: 40%;
+    float: left;
+  }
+  
+  .product_details .img_product img {
+    width: 100%;
+  }
+  
+  .product_details .img_product .top_icon {
+    position: absolute;
+    top: 22px;
+    background-color: red;
+    color: #fff;
+    padding: 2px 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    right: 10px;
+    z-index: 9;
+  }
+  
+  .product_details .img_product .overlay_post {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(6, 6, 6, 0.28);
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+    webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    top: 0;
+  }
+  
+  .product_details .img_product:hover .overlay_post {
+    opacity: 1;
+    visibility: visible;
+    webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .product_details .product_content {
+    width: 60%;
+    float: left;
+  }
+  
+  .product_details .product_content h3 {
+    font-size: 24px;
+    padding-left: 24px;
+    padding-top: 34px;
+  }
+  
+  .product_details .product_content .review {
+    padding-top: 12px;
+    padding-left: 24px;
+  }
+  
+  .product_details .product_content .review li {
+    display: inline-block;
+    padding-right: 8px;
+  }
+  
+  .product_details .product_content .review li a {
+    color: #797979;
+    font-size: 14px;
+  }
+  
+  .product_details .product_content .review li a:hover {
+    color: #01a5ed;
+  }
+  
+  .product_details .product_content .review li .star li {
+    padding-right: 0;
+  }
+  
+  .product_details .product_content .review li .star li + li {
+    border-left: 0;
+    padding-left: 0px;
+  }
+  
+  .product_details .product_content .review li + li {
+    padding-left: 8px;
+    border-left: 1px solid #ccc;
+  }
+  
+  .product_details .product_content .rate {
+    padding-top: 15px;
+  }
+  
+  .product_details .product_content .rate h3 {
+    padding-top: 12px;
+  }
+  
+  .product_details .product_content .rate h3 span {
+    display: inline-block;
+    font-size: 19px;
+    padding-left: 14px;
+    color: #797979;
+  }
+  
+  .product_details .product_content .rate p {
+    padding-top: 12px;
+    padding-left: 24px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  
+  .product_details .product_content .rate .addto_btn {
+    padding: 9px 18px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 26px;
+    margin-left: 24px;
+    text-transform: uppercase;
+    webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .product_details .product_content .rate .addto_btn:hover {
+    background-color: #01a5ed;
+    transition: all 0.5s;
+  }
+
+  .product-order  {
+      border-bottom:  1px solid #01a5ed;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
