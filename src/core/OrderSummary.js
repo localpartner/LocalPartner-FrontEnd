@@ -1,7 +1,7 @@
 import React, { useEffect,useState } from 'react'
 import { useRecoilState, useRecoilValue } from "recoil";
 import { shippingAddressState, billingAddressState, productListState, paymentMethodState } from "../recoil/atom/placeOrderState";
-import { updatePriceState } from "../recoil/atom/updatedPrice";
+// import { updatePriceState } from "../recoil/atom/updatedPrice";
 import { list } from './apiCore';
 import { createOrders,removeCartProducts } from "./apiCore";
 import swal from 'sweetalert2'; 
